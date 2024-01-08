@@ -2,11 +2,13 @@ import React from "react";
 import { Container, Box } from "@mui/material";
 import classes from "../../styleContainer/PagesStyles/HomeStyles/HomeTop.module.css";
 const Home = () => {
+  
   return (
     <Container maxWidth="false">
+
       <Box className={classes.mainContainer}>
         <Box>
-          <p className={classes.text}>Choose Your Best Partner</p>
+          <p className={classes.text}>Choose Your Best Partner with us</p>
           <Box
             sx={{
               display: "flex",
