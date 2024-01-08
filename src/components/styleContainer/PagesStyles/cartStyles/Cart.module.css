@@ -1,0 +1,103 @@
+.shoppingText {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #191919;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+}
+
+.mainContainer {
+  display: flex;
+  width: 100%;
+  padding-bottom: 3%;
+}
+
+.innerFirst {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding-left: 3%;
+}
+
+.innerSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  padding-top: 4%;
+}
+
+.titleText {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #161a30;
+}
+
+.price {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: #b80000;
+}
+.colorText {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  padding-top: 1%;
+  color: #161a30;
+}
+.form {
+  width: 100%;
+}
+
+.imgContainer {
+  width: 30%;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.btn {
+  width: 100%;
+}
+
+.grandTotalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 2px solid #161a30;
+  padding-bottom: 2%;
+}
+.grandTotalText {
+  font-family: "Roboto" sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 575.98px) {
+  .mainContainer {
+    flex-direction: column;
+    padding-bottom: 5%;
+  }
+  .innerFirst {
+    width: 100%;
+  }
+  .innerSec {
+    width: 100%;
+  }
+  .btnContainer {
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+  }
+  .imgContainer {
+    width: 100%;
+  }
+}

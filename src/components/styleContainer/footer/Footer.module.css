@@ -1,0 +1,44 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.inner {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.firstInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.subTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+@media (max-width: 575.98px) {
+  .inner {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 3%;
+  }
+  .firstInner {
+    margin-bottom: 3%;
+  }
+}

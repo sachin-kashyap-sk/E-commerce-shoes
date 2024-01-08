@@ -1,0 +1,72 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2%;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.cardContainer {
+  width: 30%;
+  margin-bottom: 3%;
+}
+
+.firstInner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2%;
+}
+
+.titleText {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #161a30;
+}
+
+.price {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #b80000;
+}
+
+.discount {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #b80000;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.trendingText {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #161a30;
+}
+
+.filter {
+  width: 400px;
+}
+
+.cardLastBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 575.98px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+  .cardContainer {
+    margin-bottom: 3%;
+    width: 100%;
+  }
+  .filter {
+    width: 300px;
+  }
+}
