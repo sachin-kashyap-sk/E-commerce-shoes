@@ -6,7 +6,7 @@ const Home = () => {
     <Container maxWidth="false">
       <Box className={classes.mainContainer}>
         <Box>
-          <p className={classes.text}>Choose Your Best Partner with us</p>
+          <p className={classes.text}>Choose Your Best Partner </p>
           <Box
             sx={{
               display: "flex",
