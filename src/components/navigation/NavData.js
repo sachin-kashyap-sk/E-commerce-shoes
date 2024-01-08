@@ -24,4 +24,8 @@ export const navItems = [
     title: "Contact",
     linkTo: "/contact",
   },
+  {
+    id: 6,
+    title: "kid",
+  },
 ];
