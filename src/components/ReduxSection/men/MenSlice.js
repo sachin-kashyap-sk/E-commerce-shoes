@@ -3,6 +3,7 @@ import { MenRunningShoesData } from "./../../Data/Men/running/MenRunningShoesDat
 import { MenWalkingShoesData } from "../../Data/Men/walking/MenWalkingShoesData";
 
 const initialState = {
+  productDes: null,
   swipeDrawer: false,
   menRunningShoes: MenRunningShoesData,
   menWalkingShoes: MenWalkingShoesData,
@@ -45,32 +46,18 @@ const MenSlice = createSlice({
       state.title = action.payload;
     },
 
-    checkedVal: (state, action) => {
-      const index = state.menRunningShoes.findIndex(
-        (item) => item.id === action.payload
-      );
-      state.menRunningShoes[index].checked =
-        !state.menRunningShoes[index].checked;
-    },
-
-    checkedMenWalking: (state, action) => {
-      const index = state.menWalkingShoes.findIndex(
-        (item) => item.id === action.payload
-      );
-      state.menWalkingShoes[index].checked =
-        !state.menWalkingShoes[index].checked;
+    checkedValMen: (state, action) => {
+      const index = state.menRunningShoes
+        .concat(state.menWalkingShoes)
+        .findIndex((item) => item.id === action.payload);
+      state.menRunningShoes.concat(state.menWalkingShoes)[index].checked =
+        !state.menRunningShoes.concat(state.menWalkingShoes)[index].checked;
     },
   },
 });
 
-export const {
-  openDrawer,
-  addToCart,
-  priceFilter,
-  filterMen,
-  checkedVal,
-  checkedMenWalking,
-} = MenSlice.actions;
+export const { openDrawer, addToCart, priceFilter, filterMen, checkedValMen } =
+  MenSlice.actions;
 export const selectedRunningShoes = (state) => state.Men.menRunningShoes;
 export const selectedWalkingShoes = (state) => state.Men.menWalkingShoes;
 export const selectedDrawer = (state) => state.Men.swipeDrawer;

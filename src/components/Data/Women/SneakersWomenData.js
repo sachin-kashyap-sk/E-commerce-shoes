@@ -56,6 +56,65 @@ export const SneakersWomenData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "The Mayze Beach Days sneaker is ready for the hottest season of the year. Admit it: the unique translucent outsole caught your eye",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "The Mayze Beach Days sneaker is ready for the hottest season of the year. Admit it: the unique translucent outsole caught your eye. Imagine what it would be like walking around in them. A crisp white upper to keep the heat at bay, and light colourful touches so you can be spotted in any crowd. It's the new addition to your collection you didn't know you needed.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Platform",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 0.0 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Synthetic upper",
+      },
+      {
+        id: nanoid(),
+        point: "Synthetic Formstrip and heel cap",
+      },
+      {
+        id: nanoid(),
+        point:
+          "Debossed and screen printed PUMA branding on heel, quarter and tongue label",
+      },
+      {
+        id: nanoid(),
+        point: "Platform silhouette",
+      },
+      {
+        id: nanoid(),
+        point: "Rubber midsole",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "ALERON VIET NAM FOOTWEAR LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FVNEC THANH HOA PROVINCE HOANG LONG INDUSTRIAL ZONE TAO XUYEN WARD THANH HOA CITY",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -86,6 +145,65 @@ export const SneakersWomenData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "The Mayze Beach Days sneaker is ready for the hottest season of the year. Admit it: the unique translucent outsole caught your eye",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "The Mayze Beach Days sneaker is ready for the hottest season of the year. Admit it: the unique translucent outsole caught your eye. Imagine what it would be like walking around in them. A crisp white upper to keep the heat at bay, and light colourful touches so you can be spotted in any crowd. It's the new addition to your collection you didn't know you needed.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Platform",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 0.0 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Synthetic upper",
+      },
+      {
+        id: nanoid(),
+        point: "Synthetic Formstrip and heel cap",
+      },
+      {
+        id: nanoid(),
+        point:
+          "Debossed and screen printed PUMA branding on heel, quarter and tongue label",
+      },
+      {
+        id: nanoid(),
+        point: "Platform silhouette",
+      },
+      {
+        id: nanoid(),
+        point: "Rubber midsole",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "ALERON VIET NAM FOOTWEAR LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FVNEC THANH HOA PROVINCE HOANG LONG INDUSTRIAL ZONE TAO XUYEN WARD THANH HOA CITY",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -116,6 +234,56 @@ export const SneakersWomenData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "white in 1987, the OG PUMA Slipstream Lo entered the scene as a basketball sneaker. A high-flying, slam-dunking, statement",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "Back in 1987, the OG PUMA Slipstream Lo entered the scene as a basketball sneaker. A high-flying, slam-dunking, statement-making basketball sneaker. Now, it’s joined by Slipstream – a rework of the original that brings an all-new energy to the game while staying true to the OG’s sporting roots. This version is outfitted with a leather upper and tumbled leather overlays, as well as a metal lace jewel",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Leather base",
+      },
+      {
+        id: nanoid(),
+        point: "Tumbled leather vamp and quarter panel overlay",
+      },
+      {
+        id: nanoid(),
+        point: "Synthetic eyestay, Formstrip, cut-out window and heel overlay",
+      },
+      {
+        id: nanoid(),
+        point: "Embossed leather detail on bottom eyestay",
+      },
+      {
+        id: nanoid(),
+        point: "Metal lace jewel with mini Formstrip",
+      },
+      {
+        id: nanoid(),
+        point: "Rubber midsole",
+      },
+      {
+        id: nanoid(),
+        point: "Rubber outsole",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "Yongzhou Yuanway Sports Shoes Co Ltd",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FCNDT HUNAN PROVINCE New Industrial Park Block six Ningyuan County 425600 YONGZHOU CITY",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -146,6 +314,56 @@ export const SneakersWomenData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "Infuse is back. This line of elevated essentials for women is updated for a new season, with an approach that stands out with",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "Infuse is back. This line of elevated essentials for women is updated for a new season, with an approach that stands out with bold purples and greens. This version of the Mayze Stack takes on a leather upper with a nubuck Formstrip and eyestay, as well as a suede back quarter panel",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Leather vamp and quarter",
+      },
+      {
+        id: nanoid(),
+        point: "Nubuck Formstrip, eyestay and heel cap",
+      },
+      {
+        id: nanoid(),
+        point: "Suede back quarter panel overlay",
+      },
+      {
+        id: nanoid(),
+        point: "Textile tongue and collar",
+      },
+      {
+        id: nanoid(),
+        point: "Rubber midsole",
+      },
+      {
+        id: nanoid(),
+        point: "Rubber outsole",
+      },
+      {
+        id: nanoid(),
+        point: "Platform silhouette",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "ALERON VIET NAM FOOTWEAR LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FVNEC THANH HOA PROVINCE HOANG LONG INDUSTRIAL ZONE TAO XUYEN WARD THANH HOA CITY",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -176,6 +394,56 @@ export const SneakersWomenData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "Step into the spotlight with the PUMA Propella Women's Sneakers. Designed as a low boot with a lacing system, these",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "Step into the spotlight with the PUMA Propella Women's Sneakers. Designed as a low boot with a lacing system, these sneakers inherit the Carina DNA and features a low to the ground tooling and a sleeker upper for a clean court silhouette encapsulating the essence of sneakerhead culture. With their understated yet timeless design, they’re the go-to choice for those who appreciate subtlety and class in their kicks",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 0 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Synthetic upper",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Formstrip on lateral side",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "TATA",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "IN Tamilnadu No. 95/1 Poondi Road Vaniyan Chathiram, Sumaithangi Post, Kaveripakkam s632508 Ranipet",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -206,6 +474,56 @@ export const SneakersWomenData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "Step into a time capsule of style with the Rider Future Vintage Unisex Sneakers. A bold confluence of past and present, these",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "Step into a time capsule of style with the Rider Future Vintage Unisex Sneakers. A bold confluence of past and present, these sneakers boast a vibrant colorblock design that merges harmoniously with futuristic details, creating a sneaker that doesn't just follow trends but sets them. And it's not just about looks - with a durable outsole, every step is a grounded experience, resonating well with every sneakerhead who appreciates the old-school charm with modern style.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 14 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Ripstop nylon upper",
+      },
+      {
+        id: nanoid(),
+        point: "Suede toe, heel and eyestay overlays",
+      },
+      {
+        id: nanoid(),
+        point: "Nylon tongue with woven label",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Formstrip with nylon piping",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "Putian Baiho Footwear Co.LTD.",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FCNXB Fujian No.1518, GUCHENG EAST ROAD, HU ANGSHI TOWN, LICHENG DISTRICT, 351144 Putian",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -236,6 +554,64 @@ export const SneakersWomenData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "There's more to the Electron E Trainers than meets the eye. Its visible technology highlights fantastic features like a breathable",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "There's more to the Electron E Trainers than meets the eye. Its visible technology highlights fantastic features like a breathable mesh upper, synthetic quarter panels for support and a bold aesthetic that's both fun and futuristic. The elastic band on the heel provides extra comfort",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 0 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Breathable mesh upper",
+      },
+      {
+        id: nanoid(),
+        point: "Synthetic quarter panels for support",
+      },
+      {
+        id: nanoid(),
+        point: "Elastic band on heel for extra comfort",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Cat Logo at lateral toe",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Wordmark across heel",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "Vietnam Kim Viet Footwear Co.LTD",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FVNKM Nong Cong Industial Clusters Nong Cong Town, Nong Cong County 453800 Thanh Hoa",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -266,6 +642,55 @@ export const SneakersWomenData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "Ace your game and the day with the Game Women's Shoes, a perfect balance of PUMA's bold branding, quality and features like",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "Ace your game and the day with the Game Women's Shoes, a perfect balance of PUMA's bold branding, quality and features like the EVA midsole that offers optimal cushioning and grip.",
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Mesh upper for breathability",
+      },
+      {
+        id: nanoid(),
+        point: "Breathable mesh upper",
+      },
+      {
+        id: nanoid(),
+        point: "EVA midsole for cushioning and traction",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA branding",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "SSIPL RETAIL LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "IN SIRMOUR VILL-MEHRUWALA,PO-BHAGANI TEHSIL-PAONTASAHIB DISTT-SIRMO HP 173025 PAONTASAHIB",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -296,6 +721,51 @@ export const SneakersWomenData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "Elevate, intensify the Style drills, out run those goals, here are the perfect PUMA Shoes an all season favorite , perfect for leisure",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "Elevate, intensify the Style drills, out run those goals, here are the perfect PUMA Shoes an all season favorite , perfect for leisure.",
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Synthetic & Mesh Upper provides breathability & durabilty",
+      },
+      {
+        id: nanoid(),
+        point: "low boot construction with lace closure",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Logo for subtle branding",
+      },
+      {
+        id: nanoid(),
+        point: "Rubber Outsole for traction",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "MOCHIKO SHOES PRIVATE LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "IN UTTRAKHAND KHASRA NO 3914, MOUZA MAZRI GRANT LAL TAPPER INDUSTRIAL AREA NH-72 248140 DEHRADUN",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),

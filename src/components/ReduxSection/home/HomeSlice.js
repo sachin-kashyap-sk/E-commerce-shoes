@@ -1,11 +1,22 @@
 import { createSlice } from "@reduxjs/toolkit";
+
 import { runningShoesData } from "./../../Data/Home/running/RunningShoesData";
 import { sneakersShoesData } from "./../../Data/Home/sneakers/SneakersShoesData";
+
+import { WalkingWomenData } from "../../Data/Women/WalkingWomenData";
+import { SneakersWomenData } from "../../Data/Women/SneakersWomenData";
+
+import { MenWalkingShoesData } from "../../Data/Men/walking/MenWalkingShoesData";
+import { MenRunningShoesData } from "../../Data/Men/running/MenRunningShoesData";
 
 const initialState = {
   productDes: null,
   productData: sneakersShoesData,
   runningShoes: runningShoesData,
+  menRunningShoes: MenRunningShoesData,
+  menWalkingShoes: MenWalkingShoesData,
+  sneakersWomenData: SneakersWomenData,
+  walkingWomenData: WalkingWomenData,
 };
 
 const HomeSlice = createSlice({
@@ -14,18 +25,29 @@ const HomeSlice = createSlice({
 
   reducers: {
     checkedVal: (state, action) => {
-      const index = state.productData.findIndex(
-        (obj) => obj.id === action.payload
-      );
+      const index = state.productData
+        .concat(
+          state.runningShoes,
+          state.menRunningShoes,
+          state.menWalkingShoes,
+          state.sneakersWomenData,
+          state.walkingWomenData
+        )
+        .findIndex((obj) => obj.id === action.payload);
 
-      state.productData[index].checked = !state.productData[index].checked;
-    },
-
-    runningShoesCheckedVal: (state, action) => {
-      const index = state.runningShoes.findIndex(
-        (obj) => obj.id === action.payload
-      );
-      state.runningShoes[index].checked = !state.runningShoes[index].checked;
+      state.productData.concat(
+        state.runningShoes,
+        state.menRunningShoes,
+        state.menWalkingShoes,
+        state.sneakersWomenData,
+        state.walkingWomenData
+      )[index].checked = !state.productData.concat(
+        state.runningShoes,
+        state.menRunningShoes,
+        state.menWalkingShoes,
+        state.sneakersWomenData,
+        state.walkingWomenData
+      )[index].checked;
     },
 
     searchByTitle: (state, action) => {
@@ -38,9 +60,15 @@ const HomeSlice = createSlice({
       );
     },
     descriptionById: (state, action) => {
-      state.productData = state.productData.filter(
-        (item) => item.id === action.payload
-      );
+      state.productDes = sneakersShoesData
+        .concat(
+          runningShoesData,
+          MenRunningShoesData,
+          MenWalkingShoesData,
+          SneakersWomenData,
+          WalkingWomenData
+        )
+        .find((item) => item.id === action.payload);
     },
   },
 });
@@ -52,6 +80,7 @@ export const {
   plusActiveStep,
   minusActiveStep,
   descriptionById,
+  runningDesById,
 } = HomeSlice.actions;
 export const selectedStep = (state) => state.Home.activeStep;
 export const selectedRunningShoes = (state) => state.Home.runningShoes;

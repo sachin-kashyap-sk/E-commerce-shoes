@@ -53,6 +53,40 @@ export const runningShoesData = [
     color: "Navy-Speed Green-Inky Blue-PUMA Black",
     size: "Uk 7",
     qty: 1,
+    checked: false,
+    description:
+      "Set the foundation for a great workout with the PWRFRAME TR 2. It has a new, improved upper over v1 and PWRFRAME technology",
+
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "Set the foundation for a great workout with the PWRFRAME TR 2. It has a new, improved upper over v1 and PWRFRAME technology in the forefoot that provides support and stability through explosive movement.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Textile upper",
+      },
+      {
+        id: nanoid(),
+        point: "Responsive midsole",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Formstrip on the medial and lateral sides",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "VMC Royal Co.Ltd.",
+      },
+      {
+        id: nanoid(),
+        point:
+          "VN SAO VIET CORPORATION BINH DUONG PROVINCE  4 ROAD, DONG AN INDUSTRIAL HO CHI MINH BINH DUONG PROVINCE THUAN AN CITY",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -82,6 +116,41 @@ export const runningShoesData = [
     color: "PUMA Black-Cool Dark Gray",
     size: "Uk 7",
     qty: 1,
+    checked: false,
+
+    description:
+      "Set the foundation for a great workout with the PWRFRAME TR 2. It has a new, improved upper over v1 and PWRFRAME technology",
+
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "Set the foundation for a great workout with the PWRFRAME TR 2. It has a new, improved upper over v1 and PWRFRAME technology in the forefoot that provides support and stability through explosive movement.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Textile upper",
+      },
+      {
+        id: nanoid(),
+        point: "Responsive midsole",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Formstrip on the medial and lateral sides",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "VMC Royal Co., Ltd.",
+      },
+      {
+        id: nanoid(),
+        point:
+          "VN SAO VIET CORPORATION BINH DUONG PROVINCE 4 ROAD, DONG AN INDUSTRIAL HO CHI MINH BINH DUONG PROVINCE THUAN AN CITY",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -111,6 +180,63 @@ export const runningShoesData = [
     color: "PUMA Black-Green Gecko",
     size: "Uk 7",
     qty: 1,
+    checked: false,
+
+    description:
+      "The ForeverRun NITRO dawns a new era of support and guidance for all runners, providing the softness of a full NITRO midsole",
+
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "The ForeverRun NITRO dawns a new era of support and guidance for all runners, providing the softness of a full NITRO midsole without compromising stability. It features a newly developed NITRO midsole with two different densities – a softer core with a firmer rim – and an asymmetrical heel counter to hold the foot in place through every stride. The theme also continues on the outsole, thanks to a wider medial rubber segment stabilising late-stage pronation. In short, it's the perfect blend of support and cushion.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Engineered mesh upper for support",
+      },
+      {
+        id: nanoid(),
+        point: "PWRTAPE reinforcement for upper",
+      },
+      {
+        id: nanoid(),
+        point:
+          "Asymmetrical heel counter stabilises the foot at impact and early pronation",
+      },
+      {
+        id: nanoid(),
+        point: "NITRO foam midsole",
+      },
+      {
+        id: nanoid(),
+        point:
+          "RUNGUIDE system promotes proper alignment and keeps the foot centred through each stride",
+      },
+      {
+        id: nanoid(),
+        point: "PUMAGRIP rubber outsole",
+      },
+      {
+        id: nanoid(),
+        point: "Medial flare for wider foot support",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "SAO VIET CORPORATION",
+      },
+      {
+        id: nanoid(),
+        point:
+          "VN BINH DUONG PROVINCE 4 ROAD, DONG AN INDUSTRIAL ZONE, THUAN AN CITY BINH DUONG PROVINCE THUAN AN CITY",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -140,6 +266,61 @@ export const runningShoesData = [
     color: "PUMA White-Green Gecko",
     size: "Uk 7",
     qty: 1,
+    checked: false,
+
+    description:
+      "The ForeverRun NITRO dawns a new era of support and guidance for all runners, providing the softness of a full NITRO midsole",
+
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "The ForeverRun NITRO dawns a new era of support and guidance for all runners, providing the softness of a full NITRO midsole without compromising stability. It features a newly developed NITRO midsole with two different densities – a softer core with a firmer rim – and an asymmetrical heel counter to hold the foot in place through every stride. The theme also continues on the outsole, thanks to a wider medial rubber segment stabilising late-stage pronation. In short, it's the perfect blend of support and cushion.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Engineered mesh upper for support",
+      },
+      {
+        id: nanoid(),
+        point: "PWRTAPE reinforcement for upper",
+      },
+      {
+        id: nanoid(),
+        point:
+          "Asymmetrical heel counter stabilises the foot at impact and early pronation",
+      },
+      {
+        id: nanoid(),
+        point: "NITRO foam midsole",
+      },
+      {
+        id: nanoid(),
+        point:
+          "RUNGUIDE system promotes proper alignment and keeps the foot centred through each stride",
+      },
+      {
+        id: nanoid(),
+        point: "PUMAGRIP rubber outsole",
+      },
+      {
+        id: nanoid(),
+        point: "Medial flare for wider foot support",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "SAO VIET CORPORATION",
+      },
+      {
+        id: nanoid(),
+        point:
+          "VN BINH DUONG PROVINCE 4 ROAD, DONG AN INDUSTRIAL ZONE, THUAN AN CITY BINH DUONG PROVINCE THUAN AN CITY",
+      },
+    ],
+
     cardImages: [
       {
         id: nanoid(),
@@ -169,6 +350,66 @@ export const runningShoesData = [
     color: "PUMA White-Green Gecko",
     size: "Uk 7",
     qty: 1,
+    checked: false,
+
+    description:
+      "An all-in-one neutral running shoe for any distance, the Velocity NITRO 2 First Mile is a lightweight and stylish addition to the Run",
+
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "An all-in-one neutral running shoe for any distance, the Velocity NITRO 2 First Mile is a lightweight and stylish addition to the Run PUMA roster. The consciously cool upper is crafted from at least 20% recycled material, while NITRO™ foam offers exceptional responsiveness and ultimate cushioning. Built for comfort at whatever speed, this upgrade to the original is a well-fitting and durable shoe for a smooth ride. Plus, PUMAGRIP provides multi-surface traction—from treadmill to track. Versatility never looked (or felt) this good",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Engineered mesh upper for support",
+      },
+      {
+        id: nanoid(),
+        point: "Great forefoot grip",
+      },
+      {
+        id: nanoid(),
+        point: "Midfoot stability",
+      },
+      {
+        id: nanoid(),
+        point: "Decoupled heel",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe drop: 8mm",
+      },
+      {
+        id: nanoid(),
+        point: "NITRO™ midsole",
+      },
+      {
+        id: nanoid(),
+        point: "PUMAGRIP rubber outsole for multi-surface traction",
+      },
+      {
+        id: nanoid(),
+        point: "Reflective design elements",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Formstrip on side",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "Putian Xinlong Footwear Co.Ltd",
+      },
+
+      {
+        id: nanoid(),
+        point: "FCNXF Fujian Shuinan Village Huangshi Town 351144 PUTIAN",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -198,6 +439,70 @@ export const runningShoesData = [
     color: "Alpine Snow-Cool Dark Gray-Astro Red",
     size: "Uk 7",
     qty: 1,
+    checked: false,
+
+    description:
+      "Get ready to conquer the track in style with the PUMA Fast Wanderer Men's Running Shoes. The lightweight textile upper",
+
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "Get ready to conquer the track in style with the PUMA Fast Wanderer Men's Running Shoes. The lightweight textile upper with cushioned midsole will have you turning heads as you breeze past your competition. With a durable outsole, these shoes will keep you running for miles.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Textile upper",
+      },
+      {
+        id: nanoid(),
+        point: "Lace closure",
+      },
+      {
+        id: nanoid(),
+        point: "EVA outsole",
+      },
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 12 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Ideal for road and treadmill running",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Formstrip on lateral side",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "MOCHIKO SHOES PRIVATE LIMITED",
+      },
+      {
+        id: nanoid(),
+        point:
+          "IN UTTRAKHAND KHASRA NO 3914, MOUZA MAZRI GRANT, LAL TAPPER INDUSTRIAL AREA, NH-72 248140 DEHRADUN",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -227,6 +532,70 @@ export const runningShoesData = [
     color: "Navy Blazer-PUMA Black-Strong Red",
     size: "Uk 7",
     qty: 1,
+    checked: false,
+
+    description:
+      "Get ready to conquer the track in style with the PUMA Fast Wanderer Men's Running Shoes. The lightweight textile upper",
+
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "Get ready to conquer the track in style with the PUMA Fast Wanderer Men's Running Shoes. The lightweight textile upper with cushioned midsole will have you turning heads as you breeze past your competition. With a durable outsole, these shoes will keep you running for miles.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Textile upper",
+      },
+      {
+        id: nanoid(),
+        point: "Lace closure",
+      },
+      {
+        id: nanoid(),
+        point: "EVA outsole",
+      },
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 12 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Ideal for road and treadmill running",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Formstrip on lateral side",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "MOCHIKO SHOES PRIVATE LIMITED",
+      },
+      {
+        id: nanoid(),
+        point:
+          "IN UTTRAKHAND KHASRA NO 3914, MOUZA MAZRI GRANT, LAL TAPPER INDUSTRIAL AREA, NH-72 248140 DEHRADUN",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -256,6 +625,70 @@ export const runningShoesData = [
     color: "Dark Coal-PUMA Black-Puma Silver-Rickie Orange",
     size: "Uk 7",
     qty: 1,
+    checked: false,
+
+    description:
+      "Get ready to conquer the track in style with the PUMA Fast Wanderer Men's Running Shoes. The lightweight textile upper",
+
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "Get ready to conquer the track in style with the PUMA Fast Wanderer Men's Running Shoes. The lightweight textile upper with cushioned midsole will have you turning heads as you breeze past your competition. With a durable outsole, these shoes will keep you running for miles.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Textile upper",
+      },
+      {
+        id: nanoid(),
+        point: "Lace closure",
+      },
+      {
+        id: nanoid(),
+        point: "EVA outsole",
+      },
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 12 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Ideal for road and treadmill running",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Formstrip on lateral side",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "MOCHIKO SHOES PRIVATE LIMITED",
+      },
+      {
+        id: nanoid(),
+        point:
+          "IN UTTRAKHAND KHASRA NO 3914, MOUZA MAZRI GRANT, LAL TAPPER INDUSTRIAL AREA, NH-72 248140 DEHRADUN",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -285,6 +718,54 @@ export const runningShoesData = [
     color: "Puma White-Pink Alert-Yellow Alert",
     size: "Uk 7",
     qty: 1,
+    checked: false,
+
+    description:
+      "Bold street style meets modern technology in the dynamic HYBRID Fuego women's sneaker. This game-changing design",
+
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "Bold street style meets modern technology in the dynamic Hybrid Fuego Women's Running Shoes. This game-changing design features a bold colour-blocked upper with overlays at the heel and a classic design for a sleek look",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 12 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Suitable for an average distance of upto 500 km",
+      },
+      {
+        id: nanoid(),
+        point: "Ideal for Road & Treadmill Running",
+      },
+    ],
+
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "SAO VIET CORPORATION",
+      },
+      {
+        id: nanoid(),
+        point:
+          "VN BINH DUONG PROVINCE 4 ROAD, DONG AN INDUSTRIAL ZONE, THUAN AN CITY BINH DUONG PROVINCE THUAN AN CITY",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),

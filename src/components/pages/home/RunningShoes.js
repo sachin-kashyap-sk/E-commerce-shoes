@@ -1,5 +1,9 @@
 import React from "react";
-import { selectedRunningShoes } from "../../ReduxSection/home/HomeSlice";
+import {
+  selectedRunningShoes,
+  // runningShoesCheckedVal,
+  checkedVal,
+} from "../../ReduxSection/home/HomeSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { Box, Card, CardContent, Button, Checkbox } from "@mui/material";
 import classes from "../../styleContainer/PagesStyles/HomeStyles/Home.module.css";
@@ -7,8 +11,10 @@ import { addToCart } from "../../ReduxSection/cart/CartSlice";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
 import Favorite from "@mui/icons-material/Favorite";
-import { runningShoesCheckedVal } from "../../ReduxSection/home/HomeSlice";
-import { addToWishList } from "../../ReduxSection/wishlist/WishlistSlice";
+import {
+  addToWishList,
+  removeFromWish,
+} from "../../ReduxSection/wishlist/WishlistSlice";
 import CardProgress from "./CardProgress";
 const RunningShoes = () => {
   const runningShoes = useSelector(selectedRunningShoes);
@@ -63,9 +69,13 @@ const RunningShoes = () => {
                       }}
                       checked={!!item.checked}
                       id={item.id}
-                      onChange={() => {
-                        dispatch(runningShoesCheckedVal(item.id));
-                        dispatch(addToWishList({ ...item }));
+                      onChange={(e) => {
+                        dispatch(checkedVal(item.id));
+                        if (e.target.checked) {
+                          dispatch(addToWishList({ ...item }));
+                        } else {
+                          dispatch(removeFromWish(item.id));
+                        }
                       }}
                       icon={<FavoriteBorder />}
                       checkedIcon={<Favorite />}

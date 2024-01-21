@@ -4,10 +4,15 @@ import classes from "../../styleContainer/PagesStyles/HomeStyles/Home.module.css
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../ReduxSection/cart/CartSlice";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { selectedSneakersWomen } from "../../ReduxSection/women/WomenSlice";
+import {
+  checkedWomenVal,
+  selectedSneakersWomen,
+} from "../../ReduxSection/women/WomenSlice";
 import WomenWalkingShoes from "./WomenWalkingShoes";
-import { checkedVal } from "../../ReduxSection/women/WomenSlice";
-import { addToWishList } from "../../ReduxSection/wishlist/WishlistSlice";
+import {
+  addToWishList,
+  removeFromWish,
+} from "../../ReduxSection/wishlist/WishlistSlice";
 import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
 import Favorite from "@mui/icons-material/Favorite";
 import CardProgress from "../home/CardProgress";
@@ -60,9 +65,13 @@ const WomenSneakersShoes = () => {
                     }}
                     checked={!!item.checked}
                     id={item.id}
-                    onChange={() => {
-                      dispatch(checkedVal(item.id));
-                      dispatch(addToWishList({ ...item }));
+                    onChange={(e) => {
+                      dispatch(checkedWomenVal(item.id));
+                      if (e.target.checked) {
+                        dispatch(addToWishList({ ...item }));
+                      } else {
+                        dispatch(removeFromWish(item.id));
+                      }
                     }}
                     icon={<FavoriteBorder />}
                     checkedIcon={<Favorite />}

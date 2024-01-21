@@ -1,0 +1,137 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.firstContainer {
+  display: flex;
+  width: 50%;
+}
+
+.secContainer {
+  width: 100%;
+  padding-left: 10%;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #161a30;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #161a30;
+  padding-top: 2%;
+}
+
+.price {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #b80000;
+  padding-top: 2%;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+}
+
+.desContainers {
+  padding-top: 3%;
+}
+.desText {
+  font-family: "Roboto" sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 3%;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f2f1eb;
+  padding: 3%;
+}
+
+.productStory {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #161a30;
+}
+
+.productStoryText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #161a30;
+  padding-top: 1%;
+}
+
+.detail {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #161a30;
+  padding-top: 5%;
+}
+
+.point {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #161a30;
+  padding-top: 1%;
+}
+
+.descriptionBottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.detailContainer {
+  width: 50%;
+}
+
+.manufacturerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media (max-width: 575.98px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+  .imgContainer {
+    width: 100%;
+  }
+  .firstContainer {
+    width: 100%;
+  }
+  .bottomContainer {
+    flex-direction: column;
+  }
+  .descriptionBottom {
+    flex-direction: column;
+  }
+  .detailContainer {
+    width: 100%;
+  }
+  .manufacturerContainer {
+    width: 100%;
+  }
+}

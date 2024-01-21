@@ -8,7 +8,6 @@ import { Box, Button, Container } from "@mui/material";
 import classes from "../../styleContainer/PagesStyles/wishStyles/WishList.module.css";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import { checkedVal } from "../../ReduxSection/home/HomeSlice";
-
 const WishList = () => {
   const wishData = useSelector(selectedWishList);
   const dispatch = useDispatch();
@@ -34,8 +33,8 @@ const WishList = () => {
                 <p className={classes.colorText}>Size: {item.size}</p>
                 <Button
                   onClick={() => {
-                    dispatch(removeFromWish(item.id));
                     dispatch(checkedVal(item.id));
+                    dispatch(removeFromWish(item.id));
                   }}
                 >
                   <DeleteOutlineIcon

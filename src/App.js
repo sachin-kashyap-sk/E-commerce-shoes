@@ -14,9 +14,9 @@ const Cart = React.lazy(() => import("./components/pages/cart/Cart"));
 const WishList = React.lazy(() =>
   import("./components/pages/wishList/WishList")
 );
-// const Description = React.lazy(() =>
-//   import("./components/pages/description/Description")
-// );
+const Description = React.lazy(() =>
+  import("./components/pages/description/Description")
+);
 
 function App() {
   const [progress, setProgress] = React.useState(0);
@@ -59,7 +59,7 @@ function App() {
           <Route path="/women" element={<Women />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/wishlist" element={<WishList />} />
-          {/* <Route path="/description/:id" element={<Description />} /> */}
+          <Route path="/description/:id" element={<Description />} />
         </Routes>
         <Footer />
       </Suspense>

@@ -22,10 +22,10 @@ import {
   removeFromWish,
 } from "../../ReduxSection/wishlist/WishlistSlice";
 import CardProgress from "./CardProgress";
-
 const HomeProducts = () => {
   const productsData = useSelector(selectedProduct);
   const dispatch = useDispatch();
+ 
   const addHandler = (item) => {
     dispatch(addToCart({ ...item }));
   };
@@ -36,10 +36,12 @@ const HomeProducts = () => {
       <Container maxWidth="false">
         <Box className={classes.mainContainer}>
           {productsData.map((item) => (
-            <Card className={classes.cardContainer} key={item.id}>
+            <Card
+              className={classes.cardContainer}
+              key={item.id}
+            >
               <CardContent>
                 <CardProgress item={item} />
-
                 <Box className={classes.firstInner}>
                   <p className={classes.titleText}>{item.title}</p>
                   <p className={classes.price}>&#x20B9; {item.price}</p>

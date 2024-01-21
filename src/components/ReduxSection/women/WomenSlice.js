@@ -7,6 +7,7 @@ const initialState = {
   title: null,
   sneakersWomenData: SneakersWomenData,
   walkingWomenData: WalkingWomenData,
+  productDes: null,
 };
 
 const WomenSlice = createSlice({
@@ -41,21 +42,14 @@ const WomenSlice = createSlice({
       );
     },
 
-    checkedVal: (state, action) => {
-      const index = state.sneakersWomenData.findIndex(
-        (item) => item.id === action.payload
-      );
-      state.sneakersWomenData[index].checked =
-        !state.sneakersWomenData[index].checked;
+    checkedWomenVal: (state, action) => {
+      const index = state.sneakersWomenData
+        .concat(state.walkingWomenData)
+        .findIndex((item) => item.id === action.payload);
+      state.sneakersWomenData.concat(state.walkingWomenData)[index].checked =
+        !state.sneakersWomenData.concat(state.walkingWomenData)[index].checked;
     },
 
-    checkedWomenShoes: (state, action) => {
-      const index = state.walkingWomenData.findIndex(
-        (item) => item.id === action.payload
-      );
-      state.walkingWomenData[index].checked =
-        !state.walkingWomenData[index].checked;
-    },
     searchWomenByTitle: (state, action) => {
       const val = action.payload.title;
       state.sneakersWomenData = SneakersWomenData.filter((item) =>
@@ -73,8 +67,7 @@ export const {
   openDrawer,
   filterPrice,
   filterTitle,
-  checkedVal,
-  checkedWomenShoes,
+  checkedWomenVal,
   searchWomenByTitle,
 } = WomenSlice.actions;
 export const selectedSneakersWomen = (state) => state.Women.sneakersWomenData;

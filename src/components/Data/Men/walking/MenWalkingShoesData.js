@@ -57,6 +57,51 @@ export const MenWalkingShoesData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "Featuring a classic silhouette, if you are one of those who likes their style to be muted and sophisticated at the same time, then",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "Featuring a classic silhouette, if you are one of those who likes their style to be muted and sophisticated at the same time, then the Grand Slip-On Men's Shoes is the one for you. This pair will only elevate your casual style",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Mesh Upper",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Wordmark at lateral side",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Cat logo at tongue",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "MOCHIKO SHOES PRIVATE LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "IN UTTRAKHAND KHASRA NO 3914, MOUZA MAZRI GRANT, LAL TAPPER INDUSTRIAL AREA, NH-72, 248140 DEHRADUN",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -87,6 +132,71 @@ export const MenWalkingShoesData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "PUMA's SOFTRIDE technology represents an advancement in footwear comfort. It incorporates our softest foam, designed to",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "The SOFTRIDE Rift Knit One8 Unisex Running Shoes is crafted to offer smooth leisure. The SOFTRIDE midsole offers plush comfort. The mesh upper and traction outsole complemented with the TPU clip provides impeccable grip and stability",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 12 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Breathable, lightweight knitted upper",
+      },
+      {
+        id: nanoid(),
+        point: "one8 insignia at the tongue,heel & footbed",
+      },
+      {
+        id: nanoid(),
+        point: "Full lace closure for secure fit",
+      },
+      {
+        id: nanoid(),
+        point: "Zoned rubber midsole provides versatile grip and traction",
+      },
+      {
+        id: nanoid(),
+        point: "Asymmetrical padded collar opening",
+      },
+      {
+        id: nanoid(),
+        point: "SOFTRIDE foam midsole",
+      },
+      {
+        id: nanoid(),
+        point: "Ideal for Road & Treadmill Running",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "Athena Viet Nam Footwear Company Limited",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FVNAT Dong Doai Village, Yen Lam Com mune , Yen Mo District,  Ninh Binh province",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -117,6 +227,39 @@ export const MenWalkingShoesData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "Lightweight comfort meets laid-back street style in the ST Activate. A sleek breathable mesh upper combines with a fashion",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "Lightweight comfort meets laid-back street style in the ST Activate. A sleek breathable mesh upper combines with a fashion-forward, lightweight EVA midsole and comfortable sock-like structure so you can float through your day.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 0 mm",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "ALERON VIET NAM FOOTWEAR LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FVNEC THANH HOA PROVINCE HOANG LONG INDUSTRIAL ZONE TAO XUYEN WARD CHATHAM ROAD SOUTH",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -147,6 +290,39 @@ export const MenWalkingShoesData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "Lightweight comfort meets laid-back street style in the ST Activate. A sleek breathable mesh upper combines with a fashion",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information. For any queries, please contact Customer Service at 1111002255 or via customercare@india.com",
+    productStory:
+      "Lightweight comfort meets laid-back street style in the ST Activate. A sleek breathable mesh upper combines with a fashion-forward, lightweight EVA midsole and comfortable sock-like structure so you can float through your day.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Platform",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 0 mm",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "ALERON VIET NAM FOOTWEAR LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FVNEC THANH HOA PROVINCE HOANG LONG INDUSTRIAL ZONE TAO XUYEN WARD CHATHAM ROAD SOUTH",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -177,6 +353,71 @@ export const MenWalkingShoesData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "PUMA's SOFTRIDE technology represents an advancement in footwear comfort. It incorporates our softest foam, designed to",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "For the confident and determined walker, this edition of the SOFTRIDE Rift Bold Men's Slip-On Walking Shoes offers ultra-cushioned comfort and unbeatable traction alongside bold stand-out branding and an avant-garde silhouette. A modern slip-on construction and alternative lace design meets SOFTRIDE and SoftFoam+ technology, finished with a contrast PUMA Wordmark across the side.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 12 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Slip-on bootie construction",
+      },
+      {
+        id: nanoid(),
+        point: "SOFTRIDE midsole for extreme cushioning and all-day comfort",
+      },
+      {
+        id: nanoid(),
+        point: "Zoned rubber outsole for traction",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Wordmark at lateral side",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Cat Logo at toe, tongue and heel",
+      },
+      {
+        id: nanoid(),
+        point: "Ideal for Road & Treadmill Running",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "ALERON VIET NAM FOOTWEAR LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FVNEC THANH HOA PROVINCE HOANG LONG INDUSTRIAL ZONE TAO XUYEN WARD CHATHAM ROAD SOUTH",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -207,6 +448,71 @@ export const MenWalkingShoesData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "PUMA's SOFTRIDE technology represents an advancement in footwear comfort. It incorporates our softest foam, designed to",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "Softness goes slip-on in these striking, splatter-print running shoes. Built with our celebrated SOFTRIDE comfort footbed and SoftFoam+ sockliner, the Premier is uniquely comfortable and relentlessly stylish",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 5 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Slip-on bootie construction",
+      },
+      {
+        id: nanoid(),
+        point: "SOFTRIDE midsole for extreme cushioning and all-day comfort",
+      },
+      {
+        id: nanoid(),
+        point: "Zoned rubber outsole for traction",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Wordmark at lateral side",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Cat Logo at toe, tongue and heel",
+      },
+      {
+        id: nanoid(),
+        point: "Ideal for Road & Treadmill Running",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "ALERON VIET NAM FOOTWEAR LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FVNEC THANH HOA PROVINCE HOANG LONG INDUSTRIAL ZONE TAO XUYEN WARD CHATHAM ROAD SOUTH",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -237,6 +543,71 @@ export const MenWalkingShoesData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "PUMA's SOFTRIDE technology represents an advancement in footwear comfort. It incorporates our softest foam, designed to",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "Slip on our SOFTRIDE Clean V2 Running Shoes and be ready to run in a matter of seconds. With medium cushioning level and featuring both SOFTRIDE and SOFTFOAM+, this pair has got all the comfort bases covered so you can focus on beating your personal best.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 12 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Low boot",
+      },
+      {
+        id: nanoid(),
+        point: "Slip-on bootie construction",
+      },
+      {
+        id: nanoid(),
+        point: "SOFTRIDE midsole for extreme cushioning and all-day comfort",
+      },
+      {
+        id: nanoid(),
+        point: "Zoned rubber outsole for traction",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Wordmark at lateral side",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Cat Logo at toe, tongue and heel",
+      },
+      {
+        id: nanoid(),
+        point: "Ideal for Road & Treadmill Running",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "ALERON VIET NAM FOOTWEAR LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "FVNEC THANH HOA PROVINCE HOANG LONG INDUSTRIAL ZONE TAO XUYEN WARD CHATHAM ROAD SOUTH",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -267,6 +638,67 @@ export const MenWalkingShoesData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "The Cave V2 Men's Sneakers will take your game to the next level with the ultimate fusion of classic style and modern design! With a",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "The Cave V2 Men's Sneakers will take your game to the next level with the ultimate fusion of classic style and modern design! With a sleek textile upper and classic PUMA branding, these sneakers are sure to turn heads on and off the court. The rubber outsole provides superior traction, while the lightweight midsole ensures maximum comfort and support.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Platform",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe pronation: Neutral",
+      },
+      {
+        id: nanoid(),
+        point: "Heel-to-toe-drop: 0 mm",
+      },
+      {
+        id: nanoid(),
+        point: "Synthetic & Mesh Upper provides breathability & durabilty",
+      },
+      {
+        id: nanoid(),
+        point: "Rubber outsole",
+      },
+      {
+        id: nanoid(),
+        point: "EVA midsole",
+      },
+      {
+        id: nanoid(),
+        point: "low boot construction with lace closure",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Logo",
+      },
+      {
+        id: nanoid(),
+        point: "Rubber Outsole for traction",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "MOCHIKO SHOES PRIVATE LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "IN UTTRAKHAND KHASRA NO 3914, MOUZA MAZRI GRANT, LAL TAPPER INDUSTRIAL AREA, NH-72 248140 DEHRADUN",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),
@@ -297,6 +729,51 @@ export const MenWalkingShoesData = [
     size: "Uk 7",
     qty: 1,
     checked: false,
+    description:
+      "Elevate your everyday style with the Comp Men's Shoes. Featuring sophisticated colours and minimalistic design, these shoes can be",
+    returns:
+      "Free return for all qualifying orders within 14 days of your order delivery date. Visit our Return Policy for more information For any queries, please contact Customer Service at 080-35353535 or via customercareindia@puma.com .",
+    productStory:
+      "Elevate your everyday style with the Comp Men's Shoes. Featuring sophisticated colours and minimalistic design, these shoes can be paired with anything and it will only make your look better. The subtle PUMA branding is the the cherry on top.",
+
+    detail: [
+      {
+        id: nanoid(),
+        point: "Heel type: Flat",
+      },
+      {
+        id: nanoid(),
+        point: "Shoe width: Regular fit",
+      },
+      {
+        id: nanoid(),
+        point: "Mesh upper for breathability",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Formstripe on lateral side",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Cat logo at medial side and tongue",
+      },
+      {
+        id: nanoid(),
+        point: "PUMA Wordmark at counter pull tab",
+      },
+    ],
+    manufacturer: [
+      {
+        id: nanoid(),
+        point: "SSIPL RETAIL LIMITED",
+      },
+
+      {
+        id: nanoid(),
+        point:
+          "IN SIRMOUR VILL-MEHRUWALA,PO-BHAGANI, TEHSIL-PAONTASAHIB,DISTT-SIRMO HP 173025 PAONTASAHIB",
+      },
+    ],
     cardImages: [
       {
         id: nanoid(),

@@ -32,5 +32,4 @@ const CartSlice = createSlice({
 
 export const { addToCart, itemQty } = CartSlice.actions;
 export const selectedCart = (state) => state.Cart.cartData;
-// export const selectedQty = (state) => state.Cart.productsQuantity;
 export default CartSlice.reducer;
