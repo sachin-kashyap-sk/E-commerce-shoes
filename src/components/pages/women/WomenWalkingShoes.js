@@ -26,7 +26,7 @@ const WomenWalkingShoes = () => {
   return (
     <Box sx={{ width: "100%" }}>
       <Box>
-        <p className={classes.trendingText}>Trending Walking Shoes</p>
+        <p className={classes.trendingText}>Trending Walking Shoe</p>
       </Box>
       <Box className={classes.mainContainer}>
         {walkingData.map((item) => (
