@@ -17,6 +17,7 @@ const WishList = React.lazy(() =>
 const Description = React.lazy(() =>
   import("./components/pages/description/Description")
 );
+const Kids = React.lazy(() => import("./components/pages/kids/Kids"));
 
 function App() {
   const [progress, setProgress] = React.useState(0);
@@ -57,6 +58,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/men" element={<Men />} />
           <Route path="/women" element={<Women />} />
+          <Route path="/kids" element={<Kids />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/wishlist" element={<WishList />} />
           <Route path="/description/:id" element={<Description />} />

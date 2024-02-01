@@ -9,6 +9,7 @@ import { SneakersWomenData } from "../../Data/Women/SneakersWomenData";
 import { MenWalkingShoesData } from "../../Data/Men/walking/MenWalkingShoesData";
 import { MenRunningShoesData } from "../../Data/Men/running/MenRunningShoesData";
 
+import { CasualShoesData } from "../../Data/Kids/casual/CasualShoesData";
 const initialState = {
   productDes: null,
   productData: sneakersShoesData,
@@ -17,6 +18,7 @@ const initialState = {
   menWalkingShoes: MenWalkingShoesData,
   sneakersWomenData: SneakersWomenData,
   walkingWomenData: WalkingWomenData,
+  kidsCasualShoesData: CasualShoesData,
 };
 
 const HomeSlice = createSlice({
@@ -31,7 +33,8 @@ const HomeSlice = createSlice({
           state.menRunningShoes,
           state.menWalkingShoes,
           state.sneakersWomenData,
-          state.walkingWomenData
+          state.walkingWomenData,
+          state.kidsCasualShoesData
         )
         .findIndex((obj) => obj.id === action.payload);
 
@@ -40,13 +43,15 @@ const HomeSlice = createSlice({
         state.menRunningShoes,
         state.menWalkingShoes,
         state.sneakersWomenData,
-        state.walkingWomenData
+        state.walkingWomenData,
+        state.kidsCasualShoesData
       )[index].checked = !state.productData.concat(
         state.runningShoes,
         state.menRunningShoes,
         state.menWalkingShoes,
         state.sneakersWomenData,
-        state.walkingWomenData
+        state.walkingWomenData,
+        state.kidsCasualShoesData
       )[index].checked;
     },
 
@@ -66,7 +71,8 @@ const HomeSlice = createSlice({
           MenRunningShoesData,
           MenWalkingShoesData,
           SneakersWomenData,
-          WalkingWomenData
+          WalkingWomenData,
+          CasualShoesData
         )
         .find((item) => item.id === action.payload);
     },

@@ -16,8 +16,8 @@ export const navItems = [
   },
   {
     id: 4,
-    title: "About",
-    linkTo: "/about",
+    title: "Kids",
+    linkTo: "/kids",
   },
   {
     id: 5,

@@ -40,6 +40,7 @@ const WomenSlice = createSlice({
       state.walkingWomenData = WalkingWomenData.filter((item) =>
         item.title.includes(val)
       );
+      state.title = action.payload;
     },
 
     checkedWomenVal: (state, action) => {

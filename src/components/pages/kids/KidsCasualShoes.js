@@ -5,20 +5,21 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../ReduxSection/cart/CartSlice";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import {
-  checkedWomenVal,
-  selectedSneakersWomen,
-} from "../../ReduxSection/women/WomenSlice";
-import WomenWalkingShoes from "./WomenWalkingShoes";
+  checkedKidsVal,
+  selectedCasualShoes,
+} from "../../ReduxSection/kids/KidsSlice";
+
 import {
   addToWishList,
   removeFromWish,
 } from "../../ReduxSection/wishlist/WishlistSlice";
+
 import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
 import Favorite from "@mui/icons-material/Favorite";
 import CardProgress from "../home/CardProgress";
-import { checkedVal } from "../../ReduxSection/home/HomeSlice";
-const WomenSneakersShoes = () => {
-  const sneakersData = useSelector(selectedSneakersWomen);
+
+const KidsCasualShoes = () => {
+  const casualShoesData = useSelector(selectedCasualShoes);
   const dispatch = useDispatch();
 
   const addHandler = (item) => {
@@ -27,7 +28,7 @@ const WomenSneakersShoes = () => {
 
   return (
     <Box className={classes.mainContainer}>
-      {sneakersData.map((item) => (
+      {casualShoesData.map((item) => (
         <Card className={classes.cardContainer} key={item.id}>
           <CardContent>
             <CardProgress item={item} />
@@ -67,8 +68,7 @@ const WomenSneakersShoes = () => {
                     checked={!!item.checked}
                     id={item.id}
                     onChange={(e) => {
-                      dispatch(checkedVal(item.id));
-                      dispatch(checkedWomenVal(item.id));
+                      dispatch(checkedKidsVal(item.id));
                       if (e.target.checked) {
                         dispatch(addToWishList({ ...item }));
                       } else {
@@ -84,9 +84,9 @@ const WomenSneakersShoes = () => {
           </CardContent>
         </Card>
       ))}
-      <WomenWalkingShoes />
+      {/* <WomenWalkingShoes /> */}
     </Box>
   );
 };
 
-export default WomenSneakersShoes;
+export default KidsCasualShoes;
